@@ -7,7 +7,7 @@ We should change our minds, shouldn't we?
 
 ### Haskell 
 
-```haskel
+```hs
 module Ssp where
 
 data Rival = Scissors | Rock | Paper deriving (Show, Eq)
