@@ -1,0 +1,5 @@
+Solving R-P-S using OOP take much more code than using FP. It seems to be more suitable the last one.
+Declarativeness helps us to solve this problem easyly through pattern matching.
+Solving the problem using Java or JS force us to end up defining classes.
+We should change our minds, shouldn't we? 
+

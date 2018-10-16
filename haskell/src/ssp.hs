@@ -1,13 +1,14 @@
 module Ssp where
 
-data Rival = Sisors | Stone | Paper deriving (Show, Eq)
+data Rival = Scissors | Rock | Paper deriving (Show, Eq)
 
 oust :: Rival -> Rival -> Rival
-oust Stone Sisors = Stone
-oust Stone Paper = Paper
 
-oust Sisors Stone = Stone
-oust Sisors Paper = Sisors
+oust Rock Scissors = Rock
+oust Rock Paper = Paper
 
-oust Paper Stone = Paper
-oust Paper Sisors = Sisors
+oust Scissors Rock = Rock
+oust Scissors Paper = Scissors
+
+oust Paper Rock = Paper
+oust Paper Scissors = Scissors

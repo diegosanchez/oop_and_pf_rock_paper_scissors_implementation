@@ -1,2 +1,6 @@
 dist/
 *.sw?
+build/
+.idea/
+.gradle/
+.out/
